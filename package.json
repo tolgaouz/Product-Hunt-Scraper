@@ -1,0 +1,29 @@
+{
+  "name": "producthuntscraper",
+  "version": "1.0.2",
+  "description": "A scraper tool for producthunt.com",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack" : "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "upwork.com/fl/tolgaoguz",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "csv-parser": "^2.3.2",
+    "csv-writer": "^1.5.0",
+    "date-time-picker": "^0.5.3",
+    "fs": "0.0.1-security",
+    "imask": "^5.2.1",
+    "request": "^2.88.0",
+    "tabulator-tables": "^4.5.2"
+  },
+  "devDependencies": {
+    "electron-builder": "^21.2.0",
+    "electron": "^7.1.7"
+  }
+}
